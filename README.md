@@ -1,4 +1,4 @@
-# week1-project-brief
+# Week1-project-brief
 
 ## Spatial Question
 Which wards in Uyo LGA, Akwa Ibom State, are within 500 metres of a river or stream and therefore at higher risk of flooding?

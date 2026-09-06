@@ -1,13 +1,5 @@
-# Week1-project-brief
+# Week 1 Project Brief
 
-## Spatial Question
-Which wards in Uyo LGA, Akwa Ibom State, are within 500 metres of a river or stream and therefore at higher risk of flooding?
+This repository contains my Week 1 deliverable for the Geospatial Data Analyst Internship programme.
 
-## Study Area
-Uyo Local Government Area, Akwa Ibom State, Nigeria
-
-## Datasets
-- Administrative boundaries (Uyo LGA ward boundaries) — GRID3 Nigeria: https://grid3.gov.ng
-- Rivers and streams (hydrology layer) — Geofabrik OSM Nigeria extract: https://download.geofabrik.de/africa/nigeria.html
-- Settlements and population data — HDX Nigeria: https://data.humdata.org/group/nga
-- Roads and built-up areas (for context/reference) — Geofabrik OSM Nigeria extract: https://download.geofabrik.de/africa/nigeria.html
+See [PROJECT_BRIEF.md](./PROJECT_BRIEF.md) for the spatial question, study area, and datasets.

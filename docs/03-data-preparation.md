@@ -11,7 +11,7 @@ What I reprojected, what I clipped, what I checked, and what I fixed.
 
 **Working CRS:** EPSG:32632 (WGS 84 / UTM Zone 32N)
 
-**Why this one:** The Week 1 question requires measuring distance (a 500m buffer around rivers/streams), and distance calculations are not accurate in a geographic CRS like EPSG:4326, which is in degrees. EPSG:32632 is a metric, projected CRS that correctly covers Uyo LGA and Akwa Ibom State.
+**Why this one:** The Week 1 question requires measuring distance (a 500m buffer around rivers/streams), and distance calculations are not accurate in a geographic CRS like EPSG:4326, which is in degrees. Nigeria spans three UTM zones (31N, 32N, 33N), split roughly at 6°E and 12°E. Uyo LGA's coordinates (~8.0°E, 5.1°N) fall clearly within the 6°E–12°E range, confirming it belongs to **Zone 32N**, not 31N. EPSG:32632 (WGS 84 / UTM Zone 32N) was therefore chosen as it correctly covers Uyo LGA and Akwa Ibom State with minimal distortion, rather than assumed by default. 
 
 | Dataset | CRS as downloaded | CRS after | Operation |
 |---|---|---|---|

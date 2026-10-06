@@ -28,3 +28,7 @@ The single mapped river in OpenStreetMap for this area falls entirely outside Uy
 
 Daniela · GeoDev Lab Africa
 Learn. Build. Collaborate. Transform.
+
+## Month 2: development environment and early Python
+
+Week 5: set up Python, VS Code and the terminal. hello.py runs.

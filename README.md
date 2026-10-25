@@ -37,6 +37,8 @@ Week 6: set up the project with uv and added pandas. check.py prints the pandas 
 
 Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
 
+Week 8: inspect_data.py summarises river length (LENGTH_KM) and catchment area (CATCH_SKM) in uyo_rivers.csv, my HydroRIVERS data for Uyo LGA. 
+
 Follow-up on mentor feedback: the OSM data had only one river, outside Uyo LGA. I replaced it with HydroRIVERS (HydroSHEDS). 40 river reaches (61.2 km) fall inside Uyo LGA, and about 60.6 sq km of the 186.5 sq km LGA (32.5%) lies within 500 m of a mapped river. HydroRIVERS only maps rivers with a catchment of at least 10 sq km, so this is a minimum. See hydrorivers_buffer_map.png. I also corrected the legend on river_buffer_map.png.
 
 

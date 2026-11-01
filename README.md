@@ -37,8 +37,16 @@ Week 6: set up the project with uv and added pandas. check.py prints the pandas 
 
 Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
 
-Week 8: inspect_data.py summarises river length (LENGTH_KM) and catchment area (CATCH_SKM) in uyo_rivers.csv, my HydroRIVERS data for Uyo LGA. 
+Week 8: inspect_data.py summarises river length (LENGTH_KM) and catchment area (CATCH_SKM) in uyo_rivers.csv, my HydroRIVERS data for Uyo LGA.
+
+Week 9: summary.py splits the analysis into read_rows, clean_values and summarise, and summarise_all runs on LENGTH_KM and CATCH_SKM in uyo_rivers.csv. 
 
 Follow-up on mentor feedback: the OSM data had only one river, outside Uyo LGA. I replaced it with HydroRIVERS (HydroSHEDS). 40 river reaches (61.2 km) fall inside Uyo LGA, and about 60.6 sq km of the 186.5 sq km LGA (32.5%) lies within 500 m of a mapped river. HydroRIVERS only maps rivers with a catchment of at least 10 sq km, so this is a minimum. See hydrorivers_buffer_map.png. I also corrected the legend on river_buffer_map.png.
+
+### Month 2 reflection
+
+This month I learned that Python is strict about spaces at the start of a line, and a line at the wrong level gives the wrong answer, like count 1 instead of 40. I also learned that a small typing mistake, like an extra dot after summary.py, can stop a command from working. Spaces and indentation are still the fuzziest idea for me, because I am not always sure how far in a line should go inside a function or a loop. My capstone shows that there are 40 river reaches in Uyo LGA, with lengths from 0.46 km to 11.45 km.
+
+
 
 

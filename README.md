@@ -50,5 +50,4 @@ This month I learned that Python is strict about spaces at the start of a line, 
 
 ## Month 3: geospatial Python and automation
 - Week 10: GeoPandas. Loaded, checked, joined and mapped my Uyo LGA boundary in code.
-
-
+- Bounds check: the Uyo LGA boundary (EPSG:32632, x 366,311 to 393,038, y 539,149 to 564,222) sits where I expect Uyo to be, and the clipped waterways layer is empty (0 features), which fits the data gap from Week 4.

@@ -48,5 +48,7 @@ Follow-up on mentor feedback: the OSM data had only one river, outside Uyo LGA. 
 This month I learned that Python is strict about spaces at the start of a line, and a line at the wrong level gives the wrong answer, like count 1 instead of 40. I also learned that a small typing mistake, like an extra dot after summary.py, can stop a command from working. Spaces and indentation are still the fuzziest idea for me, because I am not always sure how far in a line should go inside a function or a loop. My capstone shows that there are 40 river reaches in Uyo LGA, with lengths from 0.46 km to 11.45 km.
 
 
+## Month 3: geospatial Python and automation
+- Week 10: GeoPandas. Loaded, checked, joined and mapped my Uyo LGA boundary in code.
 
 

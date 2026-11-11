@@ -51,3 +51,4 @@ This month I learned that Python is strict about spaces at the start of a line, 
 ## Month 3: geospatial Python and automation
 - Week 10: GeoPandas. Loaded, checked, joined and mapped my Uyo LGA boundary in code.
 - Bounds check: the Uyo LGA boundary (EPSG:32632, x 366,311 to 393,038, y 539,149 to 564,222) sits where I expect Uyo to be, and the clipped waterways layer is empty (0 features), which fits the data gap from Week 4.
+- Join check: joining wards.csv to the wards layer matched 4 of 12 wards on the first try and still 4 of 12 after cleaning names (strip, uppercase, hyphen to space). Cleaning did not help because wards.csv only has data for 4 wards, so the other 8 have no match. I checked the match count before and after cleaning to find this.

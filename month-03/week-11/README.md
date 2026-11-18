@@ -15,6 +15,7 @@ Run my_count.py before my_reach.py and my_validity.py, because it creates the gr
 - 40 HydroRIVERS river reaches lie inside the LGA, 61.2 km in total.
 - my_count.py counted the river reaches per 5 km grid cell, and all 40 were counted.
 - About 60.6 km2 of the LGA (32.5%) lies within 500 m of a river. I chose 500 m because my project question asks about land within 500 metres of a river.
+- my_validity.py checked 1 boundary polygon and 19 grid cells: 0 invalid before make_valid and 0 invalid after.
 
 ## What went wrong
 - My first area calculation printed 0.0004 because the layer was still in degrees (EPSG:4326). After to_crs it gave square kilometres.
@@ -22,4 +23,3 @@ Run my_count.py before my_reach.py and my_validity.py, because it creates the gr
 
 ## Limitation of my method
 HydroRIVERS only maps rivers with a catchment of at least 10 km2, so smaller streams are missing and the 500 m share is a minimum. Also, there are no open ward boundaries for Uyo, so I used 5 km grid cells instead of wards. The results are per square cell, not per community.
-- my_validity.py: BEFORE invalid polygons before make_valid and AFTER after.
